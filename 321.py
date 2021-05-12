@@ -16,7 +16,7 @@ root.resizable(False, False)
 
 menu = Label(root, text= 'Калькулятор', font = ('Arial Bond', 10, 'bold'))
 menu.pack()
-ent = Entry(root, text='', font = ('Arial Bond', 19,'bold'), width = 9)
+ent = Entry(root, text='', font = ('Arial Bond', 25,'bold'), width = 9)
 ent.pack()
 Button(root, text='Решить пример', font = ('Arial bond', 17, 'bold'), command = btn_click).pack()
 lab = Label(root, text='0', font = ('Arial Bond', 19, 'bold'))
